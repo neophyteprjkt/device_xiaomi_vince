@@ -590,7 +590,6 @@ usr/keylayout/uinput-fpc.kl:vendor/usr/keylayout/uinput-fpc.kl
 usr/keylayout/uinput-goodix.kl:vendor/usr/keylayout/gf3208.kl
 
 # Listen
-vendor/lib/hw/sound_trigger.primary.msm8953.so
 vendor/lib/libadpcmdec.so
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
@@ -601,7 +600,6 @@ vendor/lib/libgcs.so
 vendor/lib/liblistenjni.so
 vendor/lib/liblistensoundmodel2.so
 vendor/lib/libsmwrapper.so
-vendor/lib64/hw/sound_trigger.primary.msm8953.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
 vendor/lib64/libgcs-calwrapper.so

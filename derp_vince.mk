@@ -26,9 +26,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Inherit extra stuff
-$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+$(call inherit-product-if-exists, vendor/dolby/ds/dolby-product.mk)
 
 # Inherit some common DerpfestOS stuff.
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_NOT_USES_BLUR := true
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions

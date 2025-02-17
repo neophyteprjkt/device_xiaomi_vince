@@ -424,10 +424,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/textclassifier/lang_id.model:$(TARGET_COPY_OUT_SYSTEM)/etc/textclassifier/lang_id.model \
     $(LOCAL_PATH)/textclassifier/textclassifier.universal.model:$(TARGET_COPY_OUT_SYSTEM)/etc/textclassifier/textclassifier.universal.model
 
-# Thermal
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti.xiaomi_vince
-
 # USB HAL
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic \

@@ -3,3 +3,4 @@ git clone --depth=1 https://github.com/vince-labs/kernel_xiaomi_vince -b main ke
 git clone --depth=1 https://github.com/k4ngcaribug/android_hardware_xiaomi -b lineage-20 hardware/xiaomi
 git clone --depth=1 https://github.com/k4ngcaribug/vendor_extra -b ten vendor/extra
 git clone --depth=1 https://github.com/k4ngcaribug/vendor_extra -b dolby vendor/dolby/ds
+git clone --depth=1 https://github.com/GrapheneOS/platform_external_Camera -b 13 platform/external/Camera

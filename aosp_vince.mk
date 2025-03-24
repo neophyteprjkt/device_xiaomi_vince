@@ -28,15 +28,13 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit extra stuff
 $(call inherit-product-if-exists, vendor/dolby/ds/dolby-product.mk)
 
-# Inherit some common SuperiorOS stuff.
-TARGET_BOOT_ANIMATION_RES := 720
-DEVICE_MAINTAINER := neophyte
-DEVICE_MAINTAINER_LINK := https://t.me/k4ngcaribug
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common Pixel stuff.
+TARGET_BOOT_ANIMATION_GEMINI := true
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := superior_vince
+PRODUCT_NAME := aosp_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi

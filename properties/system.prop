@@ -18,6 +18,9 @@ persist.camera.sensor.debug=0
 persist.camera.stats.test=5
 vidc.enc.dcvs.extra-buff-count=2
 
+# Crypto
+ro.crypto.state=encrypted
+
 # Display/Graphics
 persist.hwc.enable_vds=1
 persist.hwc.mdpcomp.enable=true

@@ -476,8 +476,8 @@ vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 
-# Fingerprint (FPC)
-vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.default.so
+# Fingerprint (FPC) - daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
+vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.default.so|4718e0917ce4cefae0179e95763069d319c33ba5
 
 # Fingerprint (Goodix)
 etc/firmware/goodix_firmware.bin:vendor/firmware/goodix_firmware.bin
@@ -485,9 +485,9 @@ lib64/libgf_algo.so:vendor/lib64/libgf_algo.so
 lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
 lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
 
-# Fingerprint (Goodix HAL) - from daisy-user 10 QKQ1.191002.002 V11.0.18.0.QDLMIXM release-keys
-vendor/lib64/hw/gf_fingerprint.default.so:vendor/lib64/hw/gf_fingerprint.goodix.default.so|b09aba758c469f3e3ff04197a723a15fbdfafea1
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|4b3e658f52dfe31d7883f19bbeb8e05d323ba607|feee131f714ed9a7dd93e7ba9bfc768cbf651426
+# Fingerprint (Goodix HAL) - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
+vendor/lib64/hw/gf_fingerprint.default.so:vendor/lib64/hw/gf_fingerprint.goodix.default.so|c1faad35df182e96de2fe8c469728d786a6c1524
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|730ab55250b13cea8591b8448f64e8a107b7e385
 
 # Gatekeeper - from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 vendor/lib/hw/gatekeeper.msm8953.so|cd04140788659ae07a50081baeb3eb2e42f37028

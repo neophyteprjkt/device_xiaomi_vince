@@ -21,6 +21,17 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Flags
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_INCLUDE_MATLOG := true
+
+# Maintainer username
+HORIZON_MAINTAINER := k4ngcaribug
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Gapps flags
+WITH_GMS := true
+WITH_GMS_VARIANT := core
 
 # Build
 BUILD_USERNAME := neophyte

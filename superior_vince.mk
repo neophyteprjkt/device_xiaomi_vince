@@ -28,14 +28,15 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit extra stuff
 $(call inherit-product-if-exists, vendor/dolby/ds/dolby-product.mk)
 
-# Inherit some common DerpfestOS stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_NOT_USES_BLUR := true
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common SuperiorOS stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
+
+# Maintainer
+DEVICE_MAINTAINER := neophyte
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := derp_vince
+PRODUCT_NAME := superior_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi

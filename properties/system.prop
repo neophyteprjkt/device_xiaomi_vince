@@ -36,6 +36,9 @@ ro.fm.transmitter=false
 # Frp
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
+# Maintainer
+ro.spos.maintainer=neophyte
+
 # Media
 av.debug.disable.pers.cache=1
 media.msm8956hw=0

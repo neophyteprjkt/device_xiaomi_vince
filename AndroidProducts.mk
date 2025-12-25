@@ -14,9 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_vince.mk
-
-COMMON_LUNCH_CHOICES := \
-    spark_vince-user \
-    spark_vince-userdebug \
-    spark_vince-eng
+    $(LOCAL_DIR)/superior_vince.mk

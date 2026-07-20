@@ -42,5 +42,6 @@ BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Signing
--include vendor/lineage-priv/keys/keys.mk
+
+# Keys
+$(call inherit-product, vendor/private/keys/keys.mk)
